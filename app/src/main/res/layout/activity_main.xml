@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F2E8D7">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_green_dark"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/letter"
+        android:paddingLeft="20dp"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/spots"
+        android:layout_alignParentRight="true"
+        android:paddingTop="10dp"
+        android:id="@+id/imageButton"
+        android:scaleType="centerCrop"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/settings"
+        android:layout_toLeftOf="@id/imageButton"
+        android:paddingTop="10dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageButton0"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/dog"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/settings" />
+
+</RelativeLayout>
